@@ -284,12 +284,15 @@
   }
   .content-card-img {
     width: 100%;
-    height: 140px;
+    height: 160px;
     background: var(--rose-pale);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
+    overflow: hidden;
+  }
+  .content-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
  
   /* FUNNEL */
@@ -468,7 +471,7 @@
   <div class="section-title">Top 3 Contenido por Vistas — Instagram</div>
   <div class="content-cards">
     <div class="content-card">
-      <div class="content-card-img">🌹</div>
+      <div class="content-card-img"><img src="post1.png" alt="Post 1"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Reel</div>
         <div class="content-card-title">Las mamás están en cada etapa… en los momentos más especiales</div>
@@ -481,7 +484,7 @@
       </div>
     </div>
     <div class="content-card">
-      <div class="content-card-img">💐</div>
+      <div class="content-card-img"><img src="post2.png" alt="Post 2"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Reel</div>
         <div class="content-card-title">Hay experiencias que duran un momento… y se recuerdan toda la vida</div>
@@ -494,7 +497,7 @@
       </div>
     </div>
     <div class="content-card">
-      <div class="content-card-img">🌸</div>
+      <div class="content-card-img"><img src="post3.png" alt="Post 3"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Carrusel</div>
         <div class="content-card-title">El jardín de mi mamá, una colección para el Día de las Madres</div>
@@ -585,7 +588,7 @@
   <div class="section-title">Top Contenido Orgánico</div>
   <div class="content-cards">
     <div class="content-card">
-      <div class="content-card-img">🌹</div>
+      <div class="content-card-img"><img src="post1.png" alt="Post 1"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Reel</div>
         <div class="content-card-title">Las mamás están en cada etapa…</div>
@@ -598,7 +601,7 @@
       </div>
     </div>
     <div class="content-card">
-      <div class="content-card-img">💐</div>
+      <div class="content-card-img"><img src="post2.png" alt="Post 2"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Reel</div>
         <div class="content-card-title">Hay experiencias que duran un momento…</div>
@@ -611,7 +614,7 @@
       </div>
     </div>
     <div class="content-card">
-      <div class="content-card-img">🌸</div>
+      <div class="content-card-img"><img src="post3.png" alt="Post 3"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Carrusel</div>
         <div class="content-card-title">El jardín de mi mamá, una colección para el Día de las Madres</div>
@@ -986,7 +989,7 @@
   <div class="section-title">Top 3 Contenido por Vistas — Instagram</div>
   <div class="content-cards">
     <div class="content-card">
-      <div class="content-card-img">🌹</div>
+      <div class="content-card-img"><img src="post1.png" alt="Post 1"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Reel</div>
         <div class="content-card-title">Las mamás están en cada etapa… en los momentos más especiales</div>
@@ -1000,7 +1003,7 @@
       </div>
     </div>
     <div class="content-card">
-      <div class="content-card-img">💐</div>
+      <div class="content-card-img"><img src="post2.png" alt="Post 2"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Reel</div>
         <div class="content-card-title">Hay experiencias que duran un momento…</div>
@@ -1014,7 +1017,7 @@
       </div>
     </div>
     <div class="content-card">
-      <div class="content-card-img">🌸</div>
+      <div class="content-card-img"><img src="post3.png" alt="Post 3"></div>
       <div class="content-card-body">
         <div class="content-card-platform"><span class="dot dot-ig"></span> Instagram · Carrusel</div>
         <div class="content-card-title">El jardín de mi mamá, colección Día de las Madres</div>
@@ -1046,4 +1049,4 @@ function showTab(tab) {
 }
 </script>
 </body>
-</html> 
+</html>
